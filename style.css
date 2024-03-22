@@ -1,3 +1,46 @@
+/* Shows scrollbars, best to add so always has scrollbar on the side */
+body {
+  overflow: scroll;
+}
+
 .navbar {
-  background-color: #f5f5f5;
+  background-color: #3DA5DC !important;
+}
+
+.footer {
+  background-color: #3DA5DC !important;
+}
+
+/* hero image on index page, do no change  */
+.hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mask {
+  border-radius: 15px;
+}
+
+/* end of hero image  */
+
+
+/* carousel controls, do not mess with these numbers, control width using bootstrap layout */
+/* .w-100{
+  aspect-ratio: 16/9;
+} */
+
+
+h1 {
+  font-family: cooper black;
+}
+
+h2 {
+  font-family: cooper black;
+}
+
+p {
+  font-family: tahoma;
 }
