@@ -44,3 +44,33 @@ h2 {
 p {
   font-family: tahoma;
 }
+
+
+/* aspect ratio for portfolio images on the portfolio page  */
+
+.portfolioimg {
+  aspect-ratio: 16/9;
+}
+
+/* portfolio page links */
+
+.portfolioLink:link,
+.portfolioLink:visited {
+  background-color: #3DA5DC;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.portfolioLink:hover,
+.portfolioLink:active {
+  background-color: #3DDBAB;
+  transition: transform .2s;
+  transform: scale(1.1);
+}
+
+
+/* end of portfolio page links */
